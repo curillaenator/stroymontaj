@@ -1,0 +1,162 @@
+/* mediaquerries for 1280px */
+
+@media (max-width: 1281px) {
+  #searchBtn {
+    width: 0;
+    display: none;
+  }
+  #calculator {
+    width: 80%;
+  }
+  #banerTextB h3,
+  #banerTextC h3 {
+    font-size: 24px;
+  }
+  .onItemHover {
+    padding: 15px 35px 0 35px;
+  }
+  .gridActivities {
+    grid-template-areas:
+      "features activities"
+      "features activities"
+      "features activities"
+      "features activities";
+    grid-template-columns: 42% 58%;
+    grid-template-rows: 25% 25% 25% 25%;
+  }
+  .hidenActivityGrid {
+    display: grid;
+    width: 100%;
+    height: 400px;
+  }
+  .footerListing h3 {
+    font-size: 16px;
+  }
+}
+
+/* mediaquerries for 1024px */
+
+@media (max-width: 1025px) {
+  .mainMenu {
+    height: 60px;
+    padding: 0;
+  }
+  .navMenu {
+    display: none;
+  }
+  .sScreenMainMenu {
+    display: flex;
+  }
+  .sScreenNavMenu {
+    display: flex;
+  }
+  .navItem {
+    line-height: 60px;
+  }
+  .calcSearch {
+    display: none;
+  }
+  .sScreenMainLogo {
+    display: flex;
+  }
+  .headerLogoInfo {
+    display: none;
+  }
+  #hoverA,
+  #hoverBCD,
+  #banerTextD p {
+    display: none;
+  }
+  #banerTextA h3,
+  #banerTextD h3 {
+    font-size: 24px;
+  }
+  #banerTextB,
+  #banerTextC,
+  #banerTextD {
+    bottom: 27%;
+  }
+  .banerGrid {
+    height: 365px;
+    grid-template-columns: 50% 50%;
+    grid-template-rows: 33.33% 33.33% 33.34%;
+    grid-template-areas:
+      "aaa bbb"
+      "aaa ccc"
+      "aaa ddd";
+  }
+  .gridActivities {
+    grid-template-areas:
+      "activities"
+      "activities"
+      "activities"
+      "activities";
+    grid-template-columns: 100%;
+    grid-template-rows: 25% 25% 25% 25%;
+    overflow: hidden;
+  }
+  .vkVidget {
+    display: none;
+  }
+}
+
+/* mediaquerries for 640px */
+
+@media (max-width: 769px) {
+  .sScreenNavMenu {
+    font-size: 12px;
+  }
+  .footerContent {
+    flex-wrap: wrap;
+    /* flex-direction: column; */
+    margin: 0 auto;
+  }
+}
+
+/* mediaquerries for 640px */
+
+@media (max-width: 641px) {
+  .banerGrid {
+    height: 300px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 25% 25% 25% 25%;
+    grid-template-areas:
+      "aaa"
+      "bbb"
+      "ccc"
+      "ddd";
+  }
+  #banerTextA {
+    bottom: 25%;
+  }
+  #banerTextA p {
+    display: none;
+  }
+  .hidenActivityGrid {
+    height: 300px;
+    grid-template-areas:
+      "photo1"
+      "photo2"
+      "photo3"
+      "photo4"
+      "photo5"
+      "photo6";
+    grid-template-columns: 100%;
+    grid-template-rows: 16.67% 16.66% 16.66% 16.66% 16.66% 16.66%;
+  }
+  .gridActivities {
+    margin: 78px 0 -160px 0;
+  }
+  .activityElementInfo {
+    bottom: 20%;
+  }
+  .activityElementBlock {
+    display: none;
+  }
+  .activityElement:hover {
+    transform: translate(0, 0);
+  }
+  .activityElementAct ul {
+    font-size: 14px;
+  }
+}

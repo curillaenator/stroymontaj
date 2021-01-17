@@ -1,0 +1,700 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="./images/favicon.png" />
+    <title>Строймонтаж</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./css/styles.css" />
+    <link rel="stylesheet" href="./css/mediaQuarries.css" />
+    <link rel="stylesheet" type="text/css" href="./libs/slick.css" />
+    <!-- <link rel="stylesheet" type="text/css" href="./libs/slick-theme.css" /> -->
+  </head>
+
+  <body>
+    <!-- HEADER  -->
+
+    <header class="header">
+      <div class="container">
+        <div class="headerLogoInfo">
+          <div class="mainLogo"></div>
+          <div class="infoBlock">
+            <div class="phoneNum">
+              <div class="phoneNumSup">с 9 до 22 ежедневно</div>
+              <div class="phoneNumTtl">+7 (499) 37-2222-8</div>
+            </div>
+            <img class="phoneIcon" src="./images/phone.svg" alt="" />
+            <a href="#" class="phoneBtn">обратный звонок</a>
+          </div>
+        </div>
+        <div class="mainMenu">
+          <nav class="navMenu">
+            <a href="#" class="navItem">Главная</a>
+            <a href="#" class="navItem">Цены</a>
+            <a href="#" class="navItem">Галлерея</a>
+            <a href="#" class="navItem">Статьи</a>
+            <a href="#" class="navItem">Отзывы</a>
+            <a href="#" class="navItem">Акции</a>
+            <a href="#" class="navItem">О компании</a>
+            <a href="#" class="navItem">Контакты</a>
+          </nav>
+          <div class="calcSearch">
+            <a href="#" class="calcSearchItem" id="calculator"
+              >Калькулятор ремонта</a
+            >
+            <a href="#" class="calcSearchItem" id="searchBtn">
+              <img src="./images/search.svg" style="height: 12px" alt="" />
+              Поиск по сайту</a
+            >
+          </div>
+          <div class="sScreenMainMenu">
+            <div class="sScreenMenuiInfo">
+              <img src="./images/phone.svg" style="height: 40px; margin: 0 20px;" alt="" />
+              <p>+7 (499) 37-2222-8</p>
+            </div> 
+            <div class="sScreenMenuBtn">
+              <img src="./images/icons/humburger2.png" id="sScreenMenuOn" alt="">
+              <img src="./images/icons/close_b.png" id="sScreenMenuOff" alt="">
+            </div>
+          </div>
+        </div>
+        <nav class="sScreenNavMenu">
+            <a href="#" class="navItem">Главная</a>
+            <a href="#" class="navItem">Цены</a>
+            <a href="#" class="navItem">Галлерея</a>
+            <a href="#" class="navItem">Статьи</a>
+            <a href="#" class="navItem">Отзывы</a>
+            <a href="#" class="navItem">Акции</a>
+            <a href="#" class="navItem">О компании</a>
+            <a href="#" class="navItem">Контакты</a>
+        </nav>
+        <div class="sScreenMainLogo">
+          <div class="mainLogo"></div>
+        </div>
+      </div>
+    </header>
+
+    <!-- BANER  -->
+
+    <section class="baner">
+      <div class="container">
+        <div class="banerGrid">
+          <div class="banerItem" id="banerPlateA">
+            <img class="banerImg" src="./images/appartments.png" alt="" />
+            <div class="banerText" id="banerTextA">
+              <h3>Ремонт квартир</h3>
+              <p style="color: #e4e7e9">
+                Наиболее недорогой и быстрый тип ремонта, в зависимости от
+                количества комнат, может быть выполнен в течение всего одной
+                недели.
+              </p>
+            </div>
+            <div class="onItemHover" id="hoverA">
+              <div class="onItemHoverA">
+                <div class="itemAlisting">
+                  <h3>Виды ремонта</h3>
+                  <ul type="none" style="padding: 0; line-height: 26px">
+                    <li><a href="./cosmetics.html">Косметический</a></li>
+                    <li><a href="#">Капитальный</a></li>
+                    <li><a href="#">Евро ремонт</a></li>
+                    <li><a href="#">Ремонт ванной</a></li>
+                  </ul>
+                </div>
+                <div class="itemAlisting">
+                  <h3>Стоимость услуг</h3>
+                  <ul type="none" style="padding: 0; line-height: 26px">
+                    <li><a href="#">от 3000 до 4000 руб./м2 </a></li>
+                    <li><a href="#">от 4000 до 7000 руб./м2 </a></li>
+                    <li><a href="#">от 7000 руб./м2 </a></li>
+                    <li><a href="#">от 30000 руб.</a></li>
+                  </ul>
+                </div>
+                <div class="itemAlisting">
+                  <h3>Галерея работ</h3>
+                  <ul type="none" style="padding: 0; line-height: 26px">
+                    <li><a href="#">"1-комнатные квартиры"</a></li>
+                    <li><a href="#">2-комнатные квартиры </a></li>
+                    <li><a href="#">3-комнатные квартиры </a></li>
+                    <li><a href="#">4-комнатные / лофты</a></li>
+                  </ul>
+                </div>
+              </div>
+              <div class="itemAlisting">
+                <h3 style="margin: 0">Дополнительные услуги</h3>
+                <ul type="none" style="padding: 0; line-height: 26px">
+                  <li><a href="#">Утепление лоджии </a></li>
+                  <li><a href="#">Предпродажная подготовка вкартиры</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+            <a href="#" class="banerItem" id="banerPlateB">
+              <img class="banerImg" src="./images/country.png" alt="" />
+              <div class="banerText" id="banerTextB">
+                <h3>Ремонт коттеджей</h3>
+              </div>
+              <div class="onItemHover" id="hoverBCD">
+                <img
+                  src="./images/icons/arrow.png"
+                  alt=""
+                  style="height: 35px; width: 35px"
+                />
+                <p style="font-size: 13px">перейти в раздел</p>
+              </div>
+            </a>
+            <a href="#" class="banerItem" id="banerPlateC">
+              <img class="banerImg" src="./images/interior-design.png" alt="" />
+              <div class="banerText" id="banerTextC">
+                <h3>Ремонт нежилых помещений</h3>
+              </div>
+              <div class="onItemHover" id="hoverBCD">
+                <img
+                  src="./images/icons/arrow.png"
+                  alt=""
+                  style="height: 35px; width: 35px"
+                />
+                <p style="font-size: 13px">перейти в раздел</p>
+              </div>
+            </a>
+          <a href="#" class="banerItem" id="banerPlateD">
+            <img class="banerImg" src="./images/appartments.png" alt="" />
+            <div class="banerText" id="banerTextD">
+              <h3>Дизайн интерьеров</h3>
+              <p style="color: #e4e7e9">
+                Ежегодно в Москве и Московской области в эксплуатацию сдают
+                тысячи квартир. Для того чтобы эти помещения стали жилыми, для
+                них необходимо разработать и воплотить в жизнь интерьер..
+              </p>
+            </div>
+            <div class="onItemHover" id="hoverBCD">
+              <img
+                src="./images/icons/arrow.png"
+                alt=""
+                style="height: 35px; width: 35px"
+              />
+              <p style="font-size: 13px">перейти в раздел</p>
+            </div>
+          </a>
+        </div>
+
+        <div class="subBanerSlider">
+          <a href="#" class="subBanerSlides">
+            <img src="./images/banner-bg.png" alt="" />
+            <span href="#">любой другой банер</span>
+          </a>
+          <a href="#" class="subBanerSlides">
+            <img src="./images/banner-bg.png" alt="" />
+            <span href="#">Здесь должен быть тайтл другого банера</span>
+          </a>
+          <a href="#" class="subBanerSlides">
+            <img src="./images/banner-bg.png" alt="" />
+            <span href="#">Вызов замерщика</span>
+          </a>
+        </div>
+        
+      </div>
+    </section>
+
+    <!-- Activities  -->
+
+    <section class="activities">
+      <div class="container">
+        <div class="activitiesPadding">
+          <div class="gridActivities">
+            <div class="activityElementFeat">
+              <h3>Наши преимущества</h3>
+              <ul type="disc">
+                <li>Более 8 лет опыта</li>
+                <li>Официальный договор</li>
+                <li>Допуск СРО</li>
+                <li>Гарантия 2 года</li>
+                <li>Большое портфолио</li>
+                <li>Подробные сметы</li>
+                <li>Скидки на материал</li>
+                <li>Безупречный сервис</li>
+                <li>Сезонные акции</li>
+                <li>Индивидуальный подход</li>
+              </ul>
+              <img src="./images/qg.png" alt="" />
+            </div>
+            <div class="activityElementAct">
+              <h3>Виды деятельности</h3>
+              <ul type="disk">
+                <li>Ремонт новых и вторичных квартир</li>
+                <li>Предпродажная подготовка квартир</li>
+                <li>Ремонт офисов, загородных домов и коттеджей</li>
+                <li>Ремонт ванных и санузлов, кухонь</li>
+                <li>Утепление лоджий</li>
+                <li>Любые отделочные работы</li>
+                <li>Перепланировка помещений</li>
+                <li>Составление дизайн-проектов</li>
+                <li>Любые инженерные работы</li>
+                <li>Строительство зданий</li>
+              </ul>
+              <a href="#" class="costCalculatorBtn">
+                <span>Расчитать стоимость</span>
+              </a>
+            </div>
+            <!-- <a href="#"> -->
+              <a href="./cosmetics.html" class="activityElement" id="activityPhoto1">
+                <img class="banerImg" src="./images/gal/1.png" alt="" />
+                <div class="activityElementInfo">
+                  <p style="padding-left: 15px; margin: 0 0 5px 0">
+                    Косметический ремонт
+                  </p>
+                  <div class="activityElementBlock">
+                    <p style="padding: 0 15px">от 3000 руб. / м<sup>2</sup></p>
+                  </div>
+                </div>
+              </a>
+            <!-- </a> -->
+            <a href="#">
+              <div class="activityElement" id="activityPhoto2">
+                <img class="banerImg" src="./images/gal/2.png" alt="" />
+                <div class="activityElementInfo">
+                  <p style="padding-left: 15px; margin: 0 0 5px 0">
+                    Капитальный ремонт
+                  </p>
+                  <div class="activityElementBlock">
+                    <p style="padding: 0 15px">от 5000 руб. / м<sup>2</sup></p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="activityElement" id="activityPhoto3">
+                <img class="banerImg" src="./images/gal/3.png" alt="" />
+                <div class="activityElementInfo">
+                  <p style="padding-left: 15px; margin: 0 0 5px 0">
+                    «Евро» ремонт
+                  </p>
+                  <div class="activityElementBlock">
+                    <p style="padding: 0 15px">от 8000 руб. / м<sup>2</sup></p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="activityElement" id="activityPhoto4">
+                <img class="banerImg" src="./images/gal/4.png" alt="" />
+                <div class="activityElementInfo">
+                  <p style="padding-left: 15px; margin: 0 0 5px 0">
+                    Утепление лоджии
+                  </p>
+                  <div class="activityElementBlock" style="line-height: 34px">
+                    <p style="padding: 0 15px">от 10000 руб.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="activityElement" id="activityPhoto5">
+                <img class="banerImg" src="./images/gal/5.png" alt="" />
+                <div class="activityElementInfo">
+                  <p style="padding-left: 15px; margin: 0 0 5px 0">
+                    Предпродажная подготовка
+                  </p>
+                  <div class="activityElementBlock">
+                    <p style="padding: 0 15px">от 1000 руб. / м<sup>2</sup></p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="activityElement" id="activityPhoto6">
+                <img class="banerImg" src="./images/gal/6.png" alt="" />
+                <div class="activityElementInfo">
+                  <p style="padding-left: 15px; margin: 0 0 5px 0">
+                    Ремонт ванной
+                  </p>
+                  <div class="activityElementBlock" style="line-height: 34px">
+                    <p style="padding: 0 15px">от 30000 руб.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="hidenActivityGrid">
+            <!-- <a href="#"> -->
+              <a href="./cosmetics.html" class="activityElement" id="activityPhoto1">
+                <img class="banerImg" src="./images/gal/1.png" alt="" />
+                <div class="activityElementInfo">
+                  <p style="padding-left: 15px; margin: 0 0 5px 0">
+                    Косметический ремонт
+                  </p>
+                  <div class="activityElementBlock">
+                    <p style="padding: 0 15px">от 3000 руб. / м<sup>2</sup></p>
+                  </div>
+                </div>
+              </a>
+            <!-- </a> -->
+            <a href="#">
+              <div class="activityElement" id="activityPhoto2">
+                <img class="banerImg" src="./images/gal/2.png" alt="" />
+                <div class="activityElementInfo">
+                  <p style="padding-left: 15px; margin: 0 0 5px 0">
+                    Капитальный ремонт
+                  </p>
+                  <div class="activityElementBlock">
+                    <p style="padding: 0 15px">от 5000 руб. / м<sup>2</sup></p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="activityElement" id="activityPhoto3">
+                <img class="banerImg" src="./images/gal/3.png" alt="" />
+                <div class="activityElementInfo">
+                  <p style="padding-left: 15px; margin: 0 0 5px 0">
+                    «Евро» ремонт
+                  </p>
+                  <div class="activityElementBlock">
+                    <p style="padding: 0 15px">от 8000 руб. / м<sup>2</sup></p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="activityElement" id="activityPhoto4">
+                <img class="banerImg" src="./images/gal/4.png" alt="" />
+                <div class="activityElementInfo">
+                  <p style="padding-left: 15px; margin: 0 0 5px 0">
+                    Утепление лоджии
+                  </p>
+                  <div class="activityElementBlock" style="line-height: 34px">
+                    <p style="padding: 0 15px">от 10000 руб.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="activityElement" id="activityPhoto5">
+                <img class="banerImg" src="./images/gal/5.png" alt="" />
+                <div class="activityElementInfo">
+                  <p style="padding-left: 15px; margin: 0 0 5px 0">
+                    Предпродажная подготовка
+                  </p>
+                  <div class="activityElementBlock">
+                    <p style="padding: 0 15px">от 1000 руб. / м<sup>2</sup></p>
+                  </div>
+                </div>
+              </div>
+            </a>
+            <a href="#">
+              <div class="activityElement" id="activityPhoto6">
+                <img class="banerImg" src="./images/gal/6.png" alt="" />
+                <div class="activityElementInfo">
+                  <p style="padding-left: 15px; margin: 0 0 5px 0">
+                    Ремонт ванной
+                  </p>
+                  <div class="activityElementBlock" style="line-height: 34px">
+                    <p style="padding: 0 15px">от 30000 руб.</p>
+                  </div>
+                </div>
+              </div>
+            </a>
+          </div>
+
+          <div class="lineDivider"></div>
+
+          <div class="mainText">
+            <h3>
+              Ремонт квартир в новостройках под ключ в Москве и Подмосковье
+            </h3>
+            <p>
+              Группа компаний «Строймонтаж» выполняет качественный и быстрый
+              ремонт квартир, офисов, магазинов, коттеджей в Москве и Московской
+              области. Мы производим косметический, «евро» и капитальный ремонт
+              зданий, помещений, загородных домов, отделка и ремонт квартир в
+              новостройках под ключ. Стоимость (цену с материалом) каждого вида
+              ремонта вы можете узнать, перейдя по ссылкам ниже.
+            </p>
+
+            <p>
+              Мы также выполняем любые работы по отделке помещений: выравнивание
+              полов, стен и потолков, малярные, сантехнические, электромонтажные
+              работы, установку систем вентиляции в квартирах, коттеджах,
+              офисах; ремонт и полную замену мягкой кровли. Мы также можем
+              предложить вам любые дизайнерские решения по оформлению
+              интерьеров.
+            </p>
+
+            <p>
+              Если вам нужен качественный ремонт в новостройке, ремонт офиса,
+              магазина, коттеджа или же любые отделочные работы, вы можете
+              обратиться к нам. Мы решим их в самые короткие сроки и с
+              минимальными расходами!
+            </p>
+
+            <p>
+              Если вы хотите выяснить, сколько стоит ремонт квартиры в
+              новостройке под ключ, вторичной квартиры, офиса, коттеджа, любого
+              другого объекта, мы легко рассчитаем цены с материалом, однако для
+              этого нам нужны два параметра. Во-первых, нужно понимать, что Вы
+              хотите видеть - косметический, капитальный или же "евро" ремонт.
+              Во-вторых, нам нужна площадь Вашего объекта. Вот два параметра, из
+              которых строятся цены и сметная стоимость на ремонтные работы.
+            </p>
+
+            <p>
+              Специалисты нашей компании с удовольствием помогут Вам разобраться
+              во всех тонкостях и нюансах расчета, нужно всего лишь позвонить
+              нам или оставить запрос. В течение короткого времени наши
+              сотрудники предоставят Вам коммерческое предложение.
+            </p>
+          </div>
+
+          <div class="text2vidget">
+            <div class="mainText">
+              <h3>Наши гарантии качества</h3>
+              <p>
+                Мы можем заверить Вас, что Вы не пожалеете, если выберете нас.
+                Наша цель – долговременное сотрудничество с клиентами и
+                положительные отзывы о нашей работе. Наша репутация для нас
+                крайне важна. Поэтому мы всегда предлагаем только высокое
+                качество услуг, подкрепленное двухлетней гарантией на все виды
+                работ.
+              </p>
+
+              <p>
+                На нашем предприятии работают специалисты высокого уровня,
+                которые обладают многолетним опытом проведения самых
+                разнообразных строительно-отделочных работ. Мы имеем богатый
+                опыт выполнения ремонта в новых квартирах (новостройках) и так
+                же качественно можем отремонтировать вторичное жилье – так, что
+                оно будет выглядеть как новое.
+              </p>
+
+              <p>
+                На нашем счету также – много проектов капитального ремонта
+                зданий и помещений, ремонта офисов в Москве и Московской
+                области. Мы применяем прогрессивные технологии и современные
+                материалы и благодаря этому можем гарантировать высочайшее
+                качество и быстрые сроки выполнения работ. Посмотрите в галерее
+                фотографии объектов, отремонтированных нами, и вы убедитесь в
+                качестве наших услуг.
+              </p>
+
+              <a href="#" class="applicationBtn">
+                <span>ОФОРМИТЬ заявку</span>
+              </a>
+            </div>
+            <div class="vkVidget">
+              <div id="vk_groups"></div>
+            </div>
+          </div>
+
+          <div class="lineDivider"></div>
+
+          <div class="centeredTittle"><h4>Галлерея наших работ</h4></div>
+
+          <div class="galleryBlockPhoto">
+            <div class="galleryPhotoSlider">
+              <a href="./images/gal/1.jpg" class="galleryPhoto">
+                <img src="./images/gal/1.jpg" alt="" />
+              </a>
+              <a href="./images/gal/2.jpg" class="galleryPhoto">
+                <img src="./images/gal/2.jpg" alt="" />
+              </a>
+              <a href="./images/gal/3.jpg" class="galleryPhoto">
+                <img src="./images/gal/3.jpg" alt="" />
+              </a>
+              <a href="./images/gal/4.jpg" class="galleryPhoto">
+                <img src="./images/gal/4.jpg" alt="" />
+              </a>
+            </div>
+            <div class="galleryPhotoSliderArrowsPrev">
+              <img
+                src="./images/icons/slider_prev.png"
+                alt=""
+                id="PhotoSliderArrow"
+              />
+            </div>
+            <div class="galleryPhotoSliderArrowsNext">
+              <img
+                src="./images/icons/slider_next.png"
+                alt=""
+                id="PhotoSliderArrow"
+              />
+            </div>
+          </div>
+
+          <div class="galleryShowAll"><a href="#">посмотреть все</a></div>
+
+          <div class="centeredTittle"><h4>видео</h4></div>
+
+          <div class="galleryBlockVideo">
+            <div class="galleryVideo">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/2vMDTfbWD_A"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+            <div class="galleryVideo">
+              <iframe
+                width="560"
+                height="315"
+                src="https://www.youtube.com/embed/2vMDTfbWD_A"
+                frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen
+              ></iframe>
+            </div>
+          </div>
+
+          <div class="galleryShowAll"><a href="#">посмотреть все</a></div>
+        </div>
+      </div>
+
+      <div class="popupPhoto js-overlay">
+        <div class="popupClose">
+          <img src="./images/icons/close.png" alt="" />
+        </div>
+        <div class="popupSlider">
+          <div class="galleryPopupSlider">
+            <img src="" alt="" />            
+        </div>
+      </div>
+    </section>
+
+    <!-- FOOTER  -->
+
+    <footer class="footer">
+      <div class="container">
+        <div class="socialNetw">
+          <div class="centeredTittle"><h4>Мы в соцсетях</h4></div>
+          <div class="socialIcons">
+            <a class="socialIconsItem" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="74"
+                height="74"
+                viewBox="0 0 74 74"
+                fill="none"
+              >
+                <rect width="74" height="74" rx="37" fill="#272D30" />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M37 47C38 47 38 45.559 38 45C38 44 39 43 40 43C41 43 42.715 44.715 44 46C45 47 45 47 46 47C47 47 49 47 49 47C49 47 51 46.924 51 45C51 44.375 50.315 43.315 48 41C46 39 44.974 40.033 48 36C49.843 33.544 51.184 31.319 50.954 30.677C50.734 30.064 45.608 29.088 45 30C43 33 42.633 33.735 42 35C41 37 40.901 38 40 38C39.091 38 39 36.059 39 35C39 31.694 39.479 29.356 38 29C38 29 36 29 35 29C33.39 29 32 30 32 30C32 30 30.759 30.968 31 31C31.298 31.04 33 30.586 33 32C33 33 33 34 33 34C33 34 33.009 38 32 38C31 38 29 34 27 31C26.215 29.823 26 30 25 30C23.928 30 23.001 30.042 22 30.042C21 30.042 20.872 30.679 21 31C23 36 24.437 39.14 28.237 43.096C31.722 46.725 34.05 46.918 36 47C36.5 47.021 36 47 37 47Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a class="socialIconsItem" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="74"
+                height="74"
+                viewBox="0 0 74 74"
+                fill="none"
+              >
+                <rect width="74" height="74" rx="37" fill="#272D30" />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M43.6913 33.6726H39.5502V30.9098C39.5502 29.8722 40.2262 29.6303 40.7023 29.6303C41.1774 29.6303 43.6246 29.6303 43.6246 29.6303V25.069L39.6 25.053C35.1324 25.053 34.1157 28.455 34.1157 30.6321V33.6726H31.5319V38.3728H34.1157C34.1157 44.4048 34.1157 51.6728 34.1157 51.6728H39.5502C39.5502 51.6728 39.5502 44.3332 39.5502 38.3728H43.2173L43.6913 33.6726Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+            <a class="socialIconsItem" href="#">
+              <svg
+                xmlns="http://www.w3.org/2000/svg"
+                width="74"
+                height="74"
+                viewBox="0 0 74 74"
+                fill="none"
+              >
+                <rect width="74" height="74" rx="37" fill="#272D30" />
+                <path
+                  fill-rule="evenodd"
+                  clip-rule="evenodd"
+                  d="M45.2089 24.4399H30.0068C27.3662 24.4399 25.2179 26.6266 25.2179 29.3151V34.465V44.7928C25.2179 47.4813 27.3662 49.6679 30.0068 49.6679H45.2094C47.8501 49.6679 49.9979 47.4813 49.9979 44.7928V34.4645V29.3146C49.9974 26.6261 47.8496 24.4399 45.2089 24.4399ZM46.5825 27.3472L47.1303 27.3452V27.9004V31.6213L42.9442 31.6351L42.9297 27.3594L46.5825 27.3472ZM34.071 34.4645C34.8648 33.3465 36.1524 32.6132 37.6079 32.6132C39.0634 32.6132 40.351 33.3465 41.1438 34.4645C41.6601 35.1942 41.9695 36.0868 41.9695 37.0537C41.9695 39.5019 40.0111 41.4937 37.6074 41.4937C35.2022 41.4937 33.2458 39.5019 33.2458 37.0537C33.2463 36.0868 33.5547 35.1942 34.071 34.4645ZM47.5832 44.7923C47.5832 46.1261 46.518 47.2095 45.2089 47.2095H30.0068C28.6973 47.2095 27.6321 46.1261 27.6321 44.7923V34.4645H31.3309C31.0115 35.2644 30.8321 36.1382 30.8321 37.0537C30.8321 40.8566 33.8711 43.9526 37.6079 43.9526C41.3442 43.9526 44.3832 40.8566 44.3832 37.0537C44.3832 36.1382 44.2028 35.2644 43.8834 34.4645H47.5832V44.7923Z"
+                  fill="white"
+                />
+              </svg>
+            </a>
+          </div>
+        </div>
+        <div class="footerContent">
+          <div class="footerListing">
+            <img
+              class="footerPoint"
+              src="./images/icons/list_point.png"
+              alt=""
+            />
+            <h3>Полезная информация</h3>
+            <ul type="none">
+              <li><a href="#">Галерея работ</a></li>
+              <li><a href="#">Цены на ремонт</a></li>
+              <li><a href="#">Вакансии</a></li>
+              <li><a href="#">Калькулятор ремонта</a></li>
+              <li><a href="#">Вопросы и ответы</a></li>
+              <li><a href="#">Сметы на ремонт</a></li>
+            </ul>
+          </div>
+          <div class="footerListing">
+            <img
+              class="footerPoint"
+              src="./images/icons/list_point.png"
+              alt=""
+            />
+            <h3>Услуги по ремонту</h3>
+            <ul type="none">
+              <li><a href="#">Ремонт комнаты </a></li>
+              <li><a href="#">Штукатурка стен по маякам </a></li>
+              <li><a href="#">Ремонт офисов </a></li>
+              <li><a href="#">Ремонт коттеджей </a></li>
+              <li><a href="#">Ремонт ванной комнаты </a></li>
+              <li><a href="#">Дизайн квартир</a></li>
+            </ul>
+          </div>
+          <div class="footerListing">
+            <img
+              class="footerPoint"
+              src="./images/icons/list_point.png"
+              alt=""
+            />
+            <h3>Контактная информация</h3>
+            <ul type="none">
+              <li>ГК «Строймонтаж»</li>
+              <li>Тел.: +7 (499) 37-222-28</li>
+              <li>Время работы: ежедневно с 10.00 до 23.00</li>
+              <li>Адрес: г. Москва, ул. Верхние Поля, д. 39</li>
+              <li>
+                Почта:
+                <a href="mailto:info@stroj-city.ru">info@stroj-city.ru</a>
+              </li>
+              <li><a href="#" style="color: #fee633">Карта сайта</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script type="text/javascript" src="./libs/jquery-3.5.1.min.js"></script>
+    <script type="text/javascript" src="./libs/slick.min.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
+    <script
+      type="text/javascript"
+      src="https://vk.com/js/api/openapi.js?168"
+    ></script>
+    <script type="text/javascript">
+      VK.Widgets.Group(
+        "vk_groups",
+        { mode: 4, width: "331", height: "393", color2: "272D30" },
+        67551356
+      );
+    </script>
+  </body>
+</html>
